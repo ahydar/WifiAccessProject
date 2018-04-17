@@ -1,0 +1,26 @@
+pip install virtualenv ( include pip install virtualenvwrapper for windows)
+mkvirtualenv WifiAccessProject Windows or mkproject other os
+workon WifiAccessProject
+setprojectdir C:\The\Directory\of\The\Project
+
+pip install flask
+pip install flask_restful
+pip install requests
+pip install CacheControl
+
+main.py
+
+To test the tool use:
+
+RESTer in firefox ( A firefox extention for maiking api calls)
+
+OR 
+
+</> Rested in Chrome ( A firefox extention for maiking api calls)
+
+whith the following properties:
+
+url = localhost:5002/geolocation
+method = POST
+Content-Type = application/json
+Body = Json provided in zip file
