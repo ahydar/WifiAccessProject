@@ -20,7 +20,7 @@ OR
 
 whith the following properties:
 
-url = localhost:5002/geolocation
+url = localhost:5002/geolocation/YOURAPIKEY
 method = POST
 Content-Type = application/json
 Body = Json provided in zip file
